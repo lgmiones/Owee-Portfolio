@@ -229,6 +229,42 @@
   #big {
     font-size: xx-large;
   }
+
+  @media (max-width: 64em) {
+    .welcome-section {
+      flex-direction: column;
+      text-align: center;
+      height: auto;
+      align-items: center;
+      justify-content: center;
+      margin-top: 70px;
+      padding: 20px;
+    }
+  
+    .welcome-section img {
+      width: 80%;
+      height: auto;
+      border-radius: 20%;
+      margin: 20px auto; /* Centers image horizontally */
+      display: block;
+    }
+  
+    .welcome-section div {
+      text-align: center;
+    }
+
+    #big {
+      font-size: 3rem; /* Adjust for smaller screens */
+    }
+
+    .welcome-section h1 {
+      display: block;
+      text-align: center; /* Centers the text */
+      width: 100%; /* Ensures it takes full width */
+      margin-left: auto; /* Adds spacing */ 
+    }
+  }
+  
   
   /* Projects section */
   
